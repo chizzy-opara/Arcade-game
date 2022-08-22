@@ -1,1 +1,15 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.water {
+  background-image: url("/assets/water-block.png");
+  height: 500px;
+  width: 500px;
+}
+
+.wrapper {
+  margin: auto;
+}/*# sourceMappingURL=main.css.map */
