@@ -4,12 +4,30 @@
   box-sizing: border-box;
 }
 
-.water {
-  background-image: url("/assets/water-block.png");
-  height: 500px;
-  width: 500px;
+.flex {
+  display: flex;
+}
+
+.mt {
+  margin-top: -98px;
 }
 
 .wrapper {
-  margin: auto;
+  background-image: url(/assets/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .player {
+  position: absolute;
+  height: 150px;
+  bottom: 10px;
+  left: 43%;
+}
+
+.container {
+  position: relative;
 }/*# sourceMappingURL=main.css.map */
