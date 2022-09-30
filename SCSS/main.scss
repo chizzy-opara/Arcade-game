@@ -38,6 +38,47 @@
     }
 }
 .container {
-    // height: 100vh;
+    height: 581px;
     position: relative;
+    width: 505px;
+}
+
+.c-block {
+    position: absolute;
+}
+.c-block[data-row="0"] {
+    top: calc(0*83px);
+}
+.c-block[data-row="1"] {
+    top: calc(1*83px);
+}
+.c-block[data-row="2"] {
+    top: calc(2*83px);
+}
+.c-block[data-row="3"] {
+    top: calc(3*83px);
+}
+.c-block[data-row="4"] {
+    top: calc(4*83px);
+}
+.c-block[data-row="5"] {
+    top: calc(5*83px);
+}
+.c-block[data-col="0"] {
+    left: calc(0 * 101px);
+}
+.c-block[data-col="1"] {
+    left: calc(1 * 101px);
+}
+.c-block[data-col="2"] {
+    left: calc(2 * 101px);
+}
+.c-block[data-col="3"] {
+    left: calc(3 * 101px);
+}
+.c-block[data-col="4"] {
+    left: calc(4 * 101px);
+}
+.c-block[data-player-active="no"] {
+    display: none;
 }
