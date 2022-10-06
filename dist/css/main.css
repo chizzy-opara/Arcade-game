@@ -4,84 +4,12 @@
   box-sizing: border-box;
 }
 
-.flex {
-  display: flex;
-}
-
-.mt {
-  margin-top: -98px;
-}
-
-.wrapper {
-  background-image: url(/assets/2.jpg);
+#app {
+  background-image: url(../assets/2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.wrapper .player {
-  position: absolute;
-  height: 150px;
-  bottom: 10px;
-  left: 43%;
-}
-
-.container {
-  height: 581px;
-  position: relative;
-  width: 505px;
-}
-
-.c-block {
-  position: absolute;
-}
-
-.c-block[data-row="0"] {
-  top: 0px;
-}
-
-.c-block[data-row="1"] {
-  top: 83px;
-}
-
-.c-block[data-row="2"] {
-  top: 166px;
-}
-
-.c-block[data-row="3"] {
-  top: 249px;
-}
-
-.c-block[data-row="4"] {
-  top: 332px;
-}
-
-.c-block[data-row="5"] {
-  top: 415px;
-}
-
-.c-block[data-col="0"] {
-  left: 0px;
-}
-
-.c-block[data-col="1"] {
-  left: 101px;
-}
-
-.c-block[data-col="2"] {
-  left: 202px;
-}
-
-.c-block[data-col="3"] {
-  left: 303px;
-}
-
-.c-block[data-col="4"] {
-  left: 404px;
-}
-
-.c-block[data-player-active=no] {
-  display: none;
 }/*# sourceMappingURL=main.css.map */

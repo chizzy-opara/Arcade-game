@@ -8,54 +8,12 @@
     <title>Archade game</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="container">
-            <img data-row="0" data-col="0" class="c-block" src="/assets/water-block.png" alt="water-block">
-            <img data-row="0" data-col="1" class="c-block" src="/assets/water-block.png" alt="water-block">
-            <img data-row="0" data-col="2" class="c-block" src="/assets/water-block.png" alt="water-block">
-            <img data-row="0" data-col="3" class="c-block" src="/assets/water-block.png" alt="water-block">
-            <img data-row="0" data-col="4" class="c-block" src="/assets/water-block.png" alt="water-block">
-            
-            <img data-row="1" data-col="0" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="1" data-col="1" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="1" data-col="2" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="1" data-col="3" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="1" data-col="4" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            
-            <img data-row="2" data-col="0" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="2" data-col="1" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="2" data-col="2" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="2" data-col="3" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="2" data-col="4" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            
-            <img data-row="3" data-col="0" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="3" data-col="1" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="3" data-col="2" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="3" data-col="3" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="3" data-col="4" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            
-            <img data-row="4" data-col="0" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="4" data-col="1" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="4" data-col="2" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="4" data-col="3" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            <img data-row="4" data-col="4" class="c-block" src="/assets/stone-block.png" alt="stone-block">
-            
-            <img data-row="5" data-col="0" class="c-block" src="/assets/grass-block.png" alt="grass-block">
-            <img data-row="5" data-col="1" class="c-block" src="/assets/grass-block.png" alt="grass-block">
-            <img data-row="5" data-col="2" class="c-block" src="/assets/grass-block.png" alt="grass-block">
-            <img data-row="5" data-col="3" class="c-block" src="/assets/grass-block.png" alt="grass-block">
-            <img data-row="5" data-col="4" class="c-block" src="/assets/grass-block.png" alt="grass-block">
-
-            <img data-player-active="no" id="player" class="c-block" src="../assets/char-boy.png" alt="player">
-            <img data-player-active="no" id="girl" class="c-block" src="../assets/char-cat-girl.png" alt="player">
-            <img data-move="yes" data-row="2" id="bug" class="c-block" src="../assets/enemy-bug.png" alt="bug">
-        </div>
-    </div>
-    
-
-    <!-- <script src="js/resources.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/engine.js"></script> -->
+    <div id="app"></div>
+    <img id="water-block" style="display: none;" src="assets/water-block.png" />
+    <img id="stone-block" style="display: none;" src="assets/stone-block.png" />
+    <img id="grass-block" style="display: none;" src="assets/grass-block.png" />
+    <img id="char-boy" style="display: none;" src="assets/char-boy.png" />
+    <img id="bug" style="display: none;" src="assets/enemy-bug.png" />
     <script src="js/script.js"></script>
 </body>
 </html>
