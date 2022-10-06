@@ -4,21 +4,13 @@
     box-sizing: border-box;
 }
 
-// .water {
-//     background-image: url('/assets/water-block.png');
-//     height: 500px;
-//     width: 500px;
-// }
-// img {
-//     height: 100%;
-//     width: 100%;
-// }
 .flex {
     display: flex;
 }
 .mt {
     margin-top: -98px;
 }
+
 .wrapper {
     background-image: url(/assets/2.jpg);
     background-repeat: no-repeat;
@@ -45,6 +37,25 @@
 
 .c-block {
     position: absolute;
+    // &[data-move="yes"] {
+    //     animation: move 5s linear;
+    //     animation-iteration-count: infinite;
+    //     animation-fill-mode: forwards;
+    //     animation-delay: 1s;
+    //     left: -20%;
+    //     @keyframes move {
+    //         0% {
+    //             left: -20%;
+    //         }
+    //         // 50% {
+    //         //     visibility: visible;
+    //         // }
+    //         100% {
+    //             // visibility: hidden;
+    //             left: 100%;
+    //         }
+    //     }
+    // }
 }
 .c-block[data-row="0"] {
     top: calc(0*83px);
@@ -82,3 +93,7 @@
 .c-block[data-player-active="no"] {
     display: none;
 }
+
+// #bug {
+//     display: none;
+// }
