@@ -58,11 +58,14 @@ class Game {
         if (dir === 'up') {
             if (this.player.row > 0) {
                 -- this.player.row;
-            } else {
+            } 
+            if (this.player.row <= 0) {
                 //player is at the top
-                this.player.col = 2;
-                this.player.row = 5;
-                window.alert('You win!');
+                window.setTimeout(() => {
+                    window.alert('You win!');
+                    this.player.col = 2;
+                    this.player.row = 5;
+                }, 750);
             }
         } else if (dir === 'down') {
             if (this.player.row < 5) {
@@ -106,7 +109,7 @@ class Game {
                     // player has collided with bug
                     this.player.col = 2;
                     this.player.row = 5;
-                    window.alert('collision happened. you fail!');
+                    window.alert('Collision happened! You loose!');
                 }
             });
             window.requestAnimationFrame(render);
